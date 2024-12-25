@@ -1,0 +1,34 @@
+.timerBtn
+{
+    width: 100px;
+    height: 40px;
+    border: 4px;
+    border-radius: 12px;
+    background-color: #111111;
+    color: white;
+    cursor: pointer;
+    font-family: consolas,monospace;
+}
+.timerBtn:hover {
+    background-color: #222222; /* Daha açık renk */
+    color: #40c439; /* Metin rengi */
+    border-color: #40c439; /* Çerçeve rengi */
+    box-shadow: 0 0 15px #40c439; /* Parlama efekti */
+}
+
+#timeDisplay
+{
+    font-size: 90px;
+    color: #40c439;
+    font-family: consolas,monospace;
+
+
+}
+#timeContainer
+{
+    text-align: center;
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: #222222;
+
+}
